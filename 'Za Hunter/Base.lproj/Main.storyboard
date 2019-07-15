@@ -67,6 +67,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PFy-YW-g7b">
+                                <rect key="frame" x="140.5" y="651" width="133" height="86"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="fD2-lV-Wh1"/>
+                                    <constraint firstAttribute="width" constant="133" id="hqs-4a-azY"/>
+                                </constraints>
+                                <state key="normal" title="Directions"/>
+                                <connections>
+                                    <action selector="onDirectionsButtonTapped:" destination="4yY-o5-YH5" eventType="touchUpInside" id="rdY-DM-WRO"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FwK-u9-CRP">
                                 <rect key="frame" x="107" y="150" width="200" height="50"/>
                                 <constraints>
@@ -83,6 +94,8 @@
                             <constraint firstItem="9cf-8Y-CMd" firstAttribute="centerX" secondItem="d3h-Nx-E0Y" secondAttribute="centerX" id="46V-9k-XE3"/>
                             <constraint firstItem="PLY-0n-TQw" firstAttribute="centerX" secondItem="d3h-Nx-E0Y" secondAttribute="centerX" id="Kpc-qk-x8Q"/>
                             <constraint firstItem="FwK-u9-CRP" firstAttribute="top" secondItem="hxa-91-DDH" secondAttribute="top" constant="62" id="WHp-as-2az"/>
+                            <constraint firstItem="PFy-YW-g7b" firstAttribute="centerX" secondItem="d3h-Nx-E0Y" secondAttribute="centerX" id="WdJ-bW-aBE"/>
+                            <constraint firstItem="PFy-YW-g7b" firstAttribute="top" secondItem="9cf-8Y-CMd" secondAttribute="bottom" constant="91" id="XK8-xu-UMl"/>
                             <constraint firstItem="9cf-8Y-CMd" firstAttribute="top" secondItem="PLY-0n-TQw" secondAttribute="bottom" constant="74" id="bon-mg-elI"/>
                             <constraint firstItem="FwK-u9-CRP" firstAttribute="centerX" secondItem="d3h-Nx-E0Y" secondAttribute="centerX" id="hT6-vU-BwQ"/>
                             <constraint firstItem="PLY-0n-TQw" firstAttribute="top" secondItem="FwK-u9-CRP" secondAttribute="bottom" constant="86" id="sYa-Ld-bzO"/>
