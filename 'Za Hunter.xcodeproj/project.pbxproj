@@ -12,6 +12,7 @@
 		4A0B7C1422DCFEEA00E5F318 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0B7C1222DCFEEA00E5F318 /* Main.storyboard */; };
 		4A0B7C1622DCFEEE00E5F318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0B7C1522DCFEEE00E5F318 /* Assets.xcassets */; };
 		4A0B7C1922DCFEEE00E5F318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0B7C1722DCFEEE00E5F318 /* LaunchScreen.storyboard */; };
+		4A0B7C2122DD053600E5F318 /* LocationsDetailsviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B7C2022DD053600E5F318 /* LocationsDetailsviewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4A0B7C1522DCFEEE00E5F318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A0B7C1822DCFEEE00E5F318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A0B7C1A22DCFEEE00E5F318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0B7C2022DD053600E5F318 /* LocationsDetailsviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDetailsviewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				4A0B7C0E22DCFEEA00E5F318 /* AppDelegate.swift */,
 				4A0B7C1022DCFEEA00E5F318 /* ViewController.swift */,
+				4A0B7C2022DD053600E5F318 /* LocationsDetailsviewController.swift */,
 				4A0B7C1222DCFEEA00E5F318 /* Main.storyboard */,
 				4A0B7C1522DCFEEE00E5F318 /* Assets.xcassets */,
 				4A0B7C1722DCFEEE00E5F318 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A0B7C1122DCFEEA00E5F318 /* ViewController.swift in Sources */,
+				4A0B7C2122DD053600E5F318 /* LocationsDetailsviewController.swift in Sources */,
 				4A0B7C0F22DCFEEA00E5F318 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
